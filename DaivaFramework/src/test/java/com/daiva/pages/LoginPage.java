@@ -8,6 +8,8 @@ import org.openqa.selenium.support.FindBy;
 public class LoginPage {
 
 	WebDriver driver;
+	
+	//This is new change committed by Wali
 	public LoginPage(WebDriver localdriver) {
 		
 		this.driver=localdriver;
