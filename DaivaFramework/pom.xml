@@ -59,11 +59,15 @@
         
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>XMLFiles/testng.xml</suiteXmlFile>
+            <suiteXmlFile>XMLFiles/${xmlFile}</suiteXmlFile>
         </suiteXmlFiles>
         
        
+        <systemPropertyVariables>
         
+        <browser>${browser}</browser>
+        <url>${testURL}</url> 
+        </systemPropertyVariables>
         
         </configuration>    
             

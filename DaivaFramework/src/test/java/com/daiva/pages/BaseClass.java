@@ -46,13 +46,28 @@ public class BaseClass {
 		Reporter.log("Test initialisation completed and test can be started",true);
 	}
 	
-	//@Parameters({"browser","URL"})
+	@Parameters({"browser","testURL"})
 	@BeforeClass
-	//public void setUp(String browser, String URL) {
+	public void setUp(String browser, String url) {
+	
+		Reporter.log("Trying to start browser and getting application ready", true);
+		//driver=BrowserFactory.startApplication(driver, "Firefox", "http://daiva.live/login");
+		//driver=BrowserFactory.startApplication(driver, config.getBrowser(), config.getURL());
+		//pass parameters during run time
+		 driver=BrowserFactory.startApplication(driver, browser, url);
+		
+
+		
+		//System.out.println(config.getDataFromConfig("name"));
+		Reporter.log("Browser and application is up and running", true);
+	}
+	
+	/*
+	@BeforeClass
 	public void setUp() {
 		Reporter.log("Trying to start browser and getting application ready", true);
-		driver=BrowserFactory.startApplication(driver, "Firefox", "http://daiva.live/login");
-		//driver=BrowserFactory.startApplication(driver, config.getBrowser(), config.getURL());
+		//driver=BrowserFactory.startApplication(driver, "Firefox", "http://daiva.live/login");
+		driver=BrowserFactory.startApplication(driver, config.getBrowser(), config.getURL());
 		//pass parameters during run time
 		//driver=BrowserFactory.startApplication(driver, browser, URL);
 		
@@ -61,8 +76,24 @@ public class BaseClass {
 		//System.out.println(config.getDataFromConfig("name"));
 		Reporter.log("Browser and application is up and running", true);
 	}
+	*/
 	
 	
+	/*
+	@BeforeClass
+	public void setUp() {
+		Reporter.log("Trying to start browser and getting application ready", true);
+		//driver=BrowserFactory.startApplication(driver, "Firefox", "http://daiva.live/login");
+		driver=BrowserFactory.startApplication(driver, config.getBrowser(), config.getURL());
+		//pass parameters during run time
+		//driver=BrowserFactory.startApplication(driver, browser, URL);
+		
+
+		
+		//System.out.println(config.getDataFromConfig("name"));
+		Reporter.log("Browser and application is up and running", true);
+	}
+	*/
 	@AfterClass
 	public void tearDown() {
 		
