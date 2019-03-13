@@ -26,12 +26,12 @@
       <![CDATA[Test completed and report generated]]>
     </line>
   </reporter-output>
-  <suite started-at="2019-03-12T16:40:32Z" name="Suite" finished-at="2019-03-12T16:43:21Z" duration-ms="168856">
+  <suite started-at="2019-03-13T08:22:19Z" name="Default suite" finished-at="2019-03-13T08:22:32Z" duration-ms="12738">
     <groups>
     </groups>
-    <test started-at="2019-03-12T16:40:32Z" name="Test" finished-at="2019-03-12T16:43:21Z" duration-ms="168856">
+    <test started-at="2019-03-13T08:22:19Z" name="Default test" finished-at="2019-03-13T08:22:32Z" duration-ms="12738">
       <class name="come.daiva.testcases.LoginTestDaiva">
-        <test-method is-config="true" signature="setUpSuit()[pri:0, instance:come.daiva.testcases.LoginTestDaiva@21b2e768]" started-at="2019-03-12T16:40:31Z" name="setUpSuit" finished-at="2019-03-12T16:40:32Z" duration-ms="1018" status="PASS">
+        <test-method is-config="true" signature="setUpSuit()[pri:0, instance:come.daiva.testcases.LoginTestDaiva@21b2e768]" started-at="2019-03-13T08:22:18Z" name="setUpSuit" finished-at="2019-03-13T08:22:19Z" duration-ms="843" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Initialising reports and test is getting ready]]>
@@ -41,7 +41,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUpSuit -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:come.daiva.testcases.LoginTestDaiva@21b2e768]" started-at="2019-03-12T16:40:32Z" name="setUp" finished-at="2019-03-12T16:43:11Z" duration-ms="159285" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:come.daiva.testcases.LoginTestDaiva@21b2e768]" started-at="2019-03-13T08:22:19Z" name="setUp" finished-at="2019-03-13T08:22:27Z" duration-ms="7850" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Trying to start browser and getting application ready]]>
@@ -51,11 +51,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginApp()[pri:1, instance:come.daiva.testcases.LoginTestDaiva@21b2e768]" started-at="2019-03-12T16:43:11Z" name="loginApp" finished-at="2019-03-12T16:43:14Z" duration-ms="2503" status="PASS">
+        <test-method signature="loginApp()[pri:1, instance:come.daiva.testcases.LoginTestDaiva@21b2e768]" started-at="2019-03-13T08:22:27Z" name="loginApp" finished-at="2019-03-13T08:22:29Z" duration-ms="2473" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApp -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:come.daiva.testcases.LoginTestDaiva@21b2e768]" started-at="2019-03-12T16:43:14Z" name="tearDownMethod" finished-at="2019-03-12T16:43:15Z" duration-ms="1469" status="PASS">
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:come.daiva.testcases.LoginTestDaiva@21b2e768]" started-at="2019-03-13T08:22:29Z" name="tearDownMethod" finished-at="2019-03-13T08:22:30Z" duration-ms="719" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -72,11 +72,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method signature="logOutApp()[pri:2, instance:come.daiva.testcases.LoginTestDaiva@21b2e768]" started-at="2019-03-12T16:43:15Z" name="logOutApp" finished-at="2019-03-12T16:43:15Z" duration-ms="2" status="PASS">
+        <test-method signature="logOutApp()[pri:2, instance:come.daiva.testcases.LoginTestDaiva@21b2e768]" started-at="2019-03-13T08:22:30Z" name="logOutApp" finished-at="2019-03-13T08:22:30Z" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutApp -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:come.daiva.testcases.LoginTestDaiva@21b2e768]" started-at="2019-03-12T16:43:15Z" name="tearDownMethod" finished-at="2019-03-12T16:43:16Z" duration-ms="1032" status="PASS">
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:come.daiva.testcases.LoginTestDaiva@21b2e768]" started-at="2019-03-13T08:22:30Z" name="tearDownMethod" finished-at="2019-03-13T08:22:30Z" duration-ms="558" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -93,11 +93,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:come.daiva.testcases.LoginTestDaiva@21b2e768]" started-at="2019-03-12T16:43:16Z" name="tearDown" finished-at="2019-03-12T16:43:21Z" duration-ms="4526" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:come.daiva.testcases.LoginTestDaiva@21b2e768]" started-at="2019-03-13T08:22:30Z" name="tearDown" finished-at="2019-03-13T08:22:32Z" duration-ms="1103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- come.daiva.testcases.LoginTestDaiva -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -1,16 +1,10 @@
 package come.daiva.testcases;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import com.daiva.pages.BaseClass;
 import com.daiva.pages.LoginPage;
-import com.daiva.utilities.BrowserFactory;
-import com.daiva.utilities.ExcelDataProvider;
-import com.daiva.utilities.Helper;
 
 
 public class LoginTestDaiva extends BaseClass{

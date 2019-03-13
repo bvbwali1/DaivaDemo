@@ -8,6 +8,7 @@
           <include name="setUpSuit"/>
           <include name="setUp"/>
           <include name="loginApp"/>
+          <include name="logOutApp"/>
           <include name="tearDown"/>
           <include name="tearDownMethod"/>
         </methods>
